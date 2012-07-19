@@ -104,7 +104,7 @@ typedef enum {
 
 @interface CMPopTipView : UIView {
 	UIColor					*backgroundColor;
-	id<CMPopTipViewDelegate>	__unsafe_unretained delegate;
+	id<CMPopTipViewDelegate>	__weak delegate;
 	NSString				*message;
 	id						targetObject;
 	UIColor					*textColor;
@@ -126,7 +126,7 @@ typedef enum {
 }
 
 @property (nonatomic, strong)			UIColor					*backgroundColor;
-@property (nonatomic, unsafe_unretained)		id<CMPopTipViewDelegate>	delegate;
+@property (nonatomic, weak)		id<CMPopTipViewDelegate>	delegate;
 @property (nonatomic, assign)			BOOL					disableTapToDismiss;
 @property (nonatomic, assign)			BOOL					dismissTapAnywhere;
 @property (nonatomic, strong)			NSString				*message;

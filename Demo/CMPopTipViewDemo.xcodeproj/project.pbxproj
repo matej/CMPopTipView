@@ -242,6 +242,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = CMPopTipViewDemo_Prefix.pch;
 				INFOPLIST_FILE = "CMPopTipViewDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = CMPopTipViewDemo;
 			};
 			name = Debug;
@@ -255,6 +256,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = CMPopTipViewDemo_Prefix.pch;
 				INFOPLIST_FILE = "CMPopTipViewDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = CMPopTipViewDemo;
 				VALIDATE_PRODUCT = YES;
 			};
