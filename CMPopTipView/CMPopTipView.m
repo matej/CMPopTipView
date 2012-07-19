@@ -30,7 +30,17 @@
 @end
 
 
-@implementation CMPopTipView
+@implementation CMPopTipView {
+	CGSize					bubbleSize;
+	CGFloat					cornerRadius;
+	BOOL					highlight;
+	CGFloat					sidePadding;
+	CGFloat					topMargin;
+	PointDirection			pointDirection;
+	CGFloat					pointerSize;
+	CGPoint					targetPoint;
+    UIButton                *dismissTarget;
+}
 
 @synthesize backgroundColor;
 @synthesize delegate;
